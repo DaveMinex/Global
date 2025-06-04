@@ -1,5 +1,6 @@
 module.exports =
 {
+  darkMode: 'class',
   // Note: config only includes the used styles & variables of your selection
   content: ["./src/**/*.{html,vue,svelte,js,ts,jsx,tsx}"],
   theme: {

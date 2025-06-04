@@ -21,8 +21,9 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
 
   // Update <html> class and localStorage when theme changes
   useEffect(() => {
-    document.documentElement.classList.remove("light", "dark");
-    document.documentElement.classList.add(theme);
+    // document.documentElement.classList.remove("light", "dark");
+    console.log(theme);
+    // document.documentElement.classList.add(theme);
     localStorage.setItem("theme", theme);
   }, [theme]);
 
